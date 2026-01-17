@@ -1,0 +1,5 @@
+    - name: Grant execute permission
+      run: chmod +x gradlew
+
+    - name: Build APK
+      run: ./gradlew assembleDebug
